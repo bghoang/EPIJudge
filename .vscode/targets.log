@@ -1,0 +1,338 @@
+make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 3.81
+# Copyright (C) 2006  Free Software Foundation, Inc.
+# This is free software; see the source for copying conditions.
+# There is NO warranty; not even for MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE.
+
+# This program built for i386-pc-mingw32
+ 
+
+# Make data base, printed on Sat Jan 08 19:08:23 2022
+
+# Variables
+
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# automatic
+?F = $(notdir $?)
+# makefile
+MAKEFLAGS = Rrqp
+# environment
+VSCODE_LOG_NATIVE = false
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# environment
+HOMEDRIVE = C:
+# automatic
+@F = $(notdir $@)
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# makefile
+CURDIR := c:/Bao/interview stuff/EPIJudge
+# default
+SHELL := sh.exe
+# environment
+CLION = C:\Program Files\JetBrains\CLion 2019.1\bin;
+# environment
+WINDIR = C:\WINDOWS
+# environment
+VSCODE_NLS_CONFIG = {"locale":"en-us","availableLanguages":{},"_languagePackSupport":true}
+# environment
+PYCHARM COMMUNITY EDITION = C:\Program Files\JetBrains\PyCharm Community Edition 2018.3.4\bin;
+# environment
+ONEDRIVE = C:\Users\hgbao\OneDrive
+# environment
+QSYS_ROOTDIR = C:\intelFPGA_lite\21.1\quartus\sopc_builder\bin
+# environment
+MOSQUITTO_DIR = C:\Program Files\mosquitto
+# environment
+PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+# makefile
+MAKEFILE_LIST := 
+# environment
+TMP = C:\Users\hgbao\AppData\Local\Temp
+# environment
+VSCODE_VERBOSE_LOGGING = true
+# environment
+PROGRAMW6432 = C:\Program Files
+# environment
+COMPOSE_CONVERT_WINDOWS_PATHS = true
+# environment
+PROGRAMDATA = C:\ProgramData
+# environment
+VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-9704d7bd-7d64-4f38-aee6-8155ae376e8e-sock
+# environment
+VSCODE_CWD = C:\Users\hgbao\AppData\Local\Programs\Microsoft VS Code
+# environment
+PATH = C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\Windows\System32;C:\Windows;C:\Windows\System32\wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\DTS\Binn\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files\Git\cmd;C:\Program Files\Java\jdk-11.0.2\bin;C:\Users\hgbao\AppData\Roaming\Python\Python37\Scripts;C:\MinGW\bin;C:\Program Files\PuTTY\;C:\Program Files\Go\bin;C:\Program Files\Pandoc\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files (x86)\GnuWin32\bin;C:\Program Files\nodejs\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Users\hgbao\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\hgbao\AppData\Local\Programs\Python\Python39\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\hgbao\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\PyCharm Community Edition 2018.3.4\bin;C:\Users\hgbao\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\JetBrains\CLion 2019.1\bin;C:\Users\hgbao\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\IntelliJ IDEA 2019.2.3\bin;;C:\FFmpeg\bin;C:\Users\hgbao\go\bin;C:\Program Files\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin;C:\Users\hgbao\AppData\Local\GitHubDesktop\bin;C:\Users\hgbao\AppData\Roaming\npm;C:\Users\hgbao\AppData\Local\Programs\Python\Python37\;
+# environment
+SW_SIM_HYDRA = C:\Program Files\Common Files\SolidWorks Shared\Simulation Worker Agent\
+# environment
+COMMONPROGRAMW6432 = C:\Program Files\Common Files
+# environment
+PROCESSOR_ARCHITECTURE = x86
+# environment
+USERPROFILE = C:\Users\hgbao
+# environment
+ALLUSERSPROFILE = C:\ProgramData
+# environment
+GOPATH = C:\Users\hgbao\go
+# environment
+SOPC_KIT_NIOS2 = C:\intelFPGA_lite\21.1\nios2eds
+# environment
+VSCODE_LOG_STACK = false
+# environment
+NUMBER_OF_PROCESSORS = 8
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# default
+.FEATURES := target-specific order-only second-expansion else-if archives
+# environment
+INTELLIJ IDEA = C:\Program Files\JetBrains\IntelliJ IDEA 2019.2.3\bin;
+# automatic
+%F = $(notdir $%)
+# environment
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_10244_ULPOQHTYQZVUFULS
+# environment
+VSCODE_PIPE_LOGGING = true
+# environment
+COMPUTERNAME = DESKTOP-US9KI22
+# environment
+PROGRAMFILES = C:\Program Files (x86)
+# environment
+DRIVERDATA = C:\Windows\System32\Drivers\DriverData
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = undefined
+# environment
+USERNAME = hgbao
+# environment
+PUBLIC = C:\Users\Public
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/services/extensions/node/extensionHostProcess
+# environment
+VSCODE_CODE_CACHE_PATH = C:\Users\hgbao\AppData\Roaming\Code\CachedData\899d46d82c4c95423fb7e10e68eba52050e30ba3
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+# environment
+COMMONPROGRAMFILES = C:\Program Files (x86)\Common Files
+# environment
+LOGONSERVER = \\DESKTOP-US9KI22
+# environment
+ONEDRIVECONSUMER = C:\Users\hgbao\OneDrive
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# environment
+USERDOMAIN = DESKTOP-US9KI22
+# default
+MAKE = $(MAKE_COMMAND)
+# default
+MAKECMDGOALS := all
+# default
+MAKE_VERSION := 3.81
+# makefile
+.DEFAULT_GOAL := 
+# environment
+PROGRAMFILES(X86) = C:\Program Files (x86)
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# environment
+LOCALAPPDATA = C:\Users\hgbao\AppData\Local
+# environment
+PSMODULEPATH = C:\Users\hgbao\Documents\WindowsPowerShell\Modules;
+# default
+MAKE_COMMAND := make.exe
+# environment
+PROCESSOR_ARCHITEW6432 = AMD64
+# default
+.VARIABLES := 
+# automatic
+*F = $(notdir $*)
+# environment
+PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 142 Stepping 10, GenuineIntel
+# environment
+OS = Windows_NT
+# environment
+VSCODE_IPC_HOOK = \\.\pipe\4475ea8744028280bb8d66a2bbe3256f-1.63.2-main-sock
+# environment
+HOMEPATH = \Users\hgbao
+# environment
+COMMONPROGRAMFILES(X86) = C:\Program Files (x86)\Common Files
+# environment
+PROMPT = $P$G
+# environment
+MFLAGS = -Rrqp
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# environment
+SYSTEMROOT = C:\WINDOWS
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# automatic
++F = $(notdir $+)
+# environment
+APPDATA = C:\Users\hgbao\AppData\Roaming
+# environment
+TEMP = C:\Users\hgbao\AppData\Local\Temp
+# environment
+COMSPEC = C:\WINDOWS\system32\cmd.exe
+# default
+MAKEFILES := 
+# environment
+QUARTUS_ROOTDIR = C:\intelFPGA_lite\21.1\quartus
+# automatic
+<F = $(notdir $<)
+# environment
+LC_ALL = C
+# environment
+CONFIGSETROOT = C:\WINDOWS\ConfigSetRoot
+# environment
+SW_SIM_TEMP = C:\ProgramData\SOLIDWORKS\SW_net_sim_temp\
+# automatic
+^F = $(notdir $^)
+# default
+SUFFIXES := 
+# environment
+SYSTEMDRIVE = C:
+# environment
+SESSIONNAME = Console
+# environment
+PROCESSOR_REVISION = 8e0a
+# environment
+SW_SIM_MPIT = INTELMPI
+# environment
+MAKELEVEL := 0
+# environment
+LANG = C
+# environment
+PROCESSOR_LEVEL = 6
+# environment
+VSCODE_PID = 10244
+# environment
+USERDOMAIN_ROAMINGPROFILE = DESKTOP-US9KI22
+# variable set hash-table stats:
+# Load=100/1024=10%, Rehash=0, Collisions=9/117=8%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# : could not be stat'd.
+# C:\Program Files\JetBrains\CLion 2019.1\bin: could not be stat'd.
+# C:\Program Files\Common Files\Oracle\Java\javapath (key C:/Program Files/Common Files/Oracle/Java/javapath, mtime 1641678144): 6 files, no impossibilities.
+# C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\ (key C:/Program Files (x86)/Intel/Intel(R) Management Engine Components/iCLS/, mtime 1535685274): 8 files, no impossibilities.
+# C:\Program Files\Go\bin (key C:/Program Files/Go/bin, mtime 1602445881): 4 files, no impossibilities.
+# C:\Program Files\Pandoc\ (key C:/Program Files/Pandoc/, mtime 1603040383): 6 files, no impossibilities.
+# C:\Windows\System32\WindowsPowerShell\v1.0\ (key C:/Windows/System32/WindowsPowerShell/v1.0/, mtime 1622895072): 30 files, no impossibilities.
+# C:\Windows\System32\wbem (key C:/Windows/System32/wbem, mtime 1640135874): 154 files, no impossibilities.
+# . (key c:/Bao/interview stuff/EPIJudge, mtime 1641528260): 21 files, no impossibilities.
+# C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\ (key C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/, mtime 1547961199): 73 files, no impossibilities.
+# C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common (key C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common, mtime 1547961434): 5 files, no impossibilities.
+# C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\ (key C:/Program Files (x86)/Microsoft SQL Server/120/Tools/Binn/, mtime 1547961093): 12 files, no impossibilities.
+# C:\Users\hgbao\AppData\Local\Programs\Python\Python37\ (key C:/Users/hgbao/AppData/Local/Programs/Python/Python37/, mtime 1633723267): 19 files, no impossibilities.
+# C:\Pr 
+ogram Files\Microsoft SQL Server\120\DTS\Binn\ (key C:/Program Files/Microsoft SQL Server/120/DTS/Binn/, mtime 1547961132): 38 files, no impossibilities.
+# C:\FFmpeg\bin: could not be stat'd.
+# C:\Program Files\nodejs\ (key C:/Program Files/nodejs/, mtime 1624817106): 11 files, no impossibilities.
+# C:\Program Files\Java\jdk-11.0.2\bin (key C:/Program Files/Java/jdk-11.0.2/bin, mtime 1548376173): 123 files, no impossibilities.
+# C:\MinGW\bin (key C:/MinGW/bin, mtime 1554321814): 142 files, no impossibilities.
+# C:\Program Files\MySQL\MySQL Shell 8.0\bin\ (key C:/Program Files/MySQL/MySQL Shell 8.0/bin/, mtime 1595466807): 7 files, no impossibilities.
+# C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\: could not be stat'd.
+# C:\Users\hgbao\AppData\Local\Programs\Microsoft VS Code\bin (key C:/Users/hgbao/AppData/Local/Programs/Microsoft VS Code/bin, mtime 1641443679): 4 files, no impossibilities.
+# C:\Program Files\Intel\Intel(R) Management Engine Components\IPT (key C:/Program Files/Intel/Intel(R) Management Engine Components/IPT, mtime 1535685246): 5 files, no impossibilities.
+# C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\110\Tools\Binn\ (key C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/110/Tools/Binn/, mtime 1547961131): 6 files, no impossibilities.
+# C:\Windows\System32\OpenSSH\: could not be stat'd.
+# C:\Program Files\PuTTY\ (key C:/Program Files/PuTTY/, mtime 1596687340): 12 files, no impossibilities.
+# C:\Program Files (x86)\Common Files\Oracle\Java\javapath (key C:/Program Files (x86)/Common Files/Oracle/Java/javapath, mtime 1606202581): 5 files, no impossibilities.
+# C:\Users\hgbao\AppData\Roaming\npm (key C:/Users/hgbao/AppData/Roaming/npm, mtime 1619556152): 23 files, no impossibilities.
+# C:\Program Files\JetBrains\PyCharm Community Edition 2018.3.4\bin: could not be stat'd.
+# C:\Program Files\Intel\Intel(R) Management Engine Components\DAL (key C:/Program Files/Intel/Intel(R) Management Engine Components/DAL, mtime 1535685246): 4 files, no impossibilities.
+# C:\Windows (key C:/Windows, mtime 1640141397): 129 files, no impossibilities.
+# C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\ (key C:/Program Files/Intel/Intel(R) Management Engine Components/iCLS/, mtime 1535685273): 11 files, no impossibilities.
+# C:\Program Files\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin (key C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin, mtime 1554320014): 58 files, no impossibilities.
+# C:\Program Files\JetBrains\IntelliJ IDEA 2019.2.3\bin: could not be stat'd.
+# C:\Users\hgbao\AppData\Local\Programs\Python\Python39\ (key C:/Users/hgbao/AppData/Local/Programs/Python/Python39/, mtime 1634273414): 20 files, no impossibilities.
+# C:\Users\hgbao\AppData\Local\GitHubDesktop\bin (key C:/Users/hgbao/AppData/Local/GitHubDesktop/bin, mtime 1624165957): 4 files, no impossibilities.
+# C:\Users\hgbao\AppData\Local\Microsoft\WindowsApps (key C:/Users/hgbao/AppData/Local/Microsoft/WindowsApps, mtime 1641667814): 49 files, no impossibilities.
+# C:\Program Files\Microsoft SQL Server\120\Tools\Binn\ (key C:/Program Files/Microsoft SQL Server/120/Tools/Binn/, mtime 1547961093): 14 files, no impossibilities.
+# C:\Users\hgbao\AppData\Local\Programs\Python\Python39\Scripts\ (key C:/Users/hgbao/AppData/Local/Programs/Python/Python39/Scripts/, mtime 1637809406): 12 files, no impossibilities.
+# C:\Program Files\Git\cmd (key C:/Program Files/Git/cmd, mtime 1548272433): 8 files, no impossibilities.
+# C:\Windows\System32 (key C:/Windows/System32, mtime 1641678144): 3053 files, no impossibilities.
+# C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT (key C:/Program Files (x86)/Intel/Intel(R) Management Engine Components/IPT, mtime 1535685246): 6 files, no impossibilities.
+# C:\Users\hgbao\go\bin (key C:/Users/hgbao/go/bin, mtime 1633190163): 3 files, no impossibilities.
+# C:\Users\hgbao\AppData\Roaming\Python\Python37\Scripts (key C:/Users/hgbao/AppData/Roaming/Python/Python37/Scripts, mtime 1619742036): 39 files, no impossibilities.
+# C:\Program Files\Microsoft SQL Server\130\Tools\Binn\ (key C:/Program Files/Microsoft SQL Server/130/Tools/Binn/, mtime 1610671224): 4 files, no impossibilities.
+# C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL (key C:/Program Files (x86)/Intel/Intel(R) Management Engine Components/DAL, mtime 1535685246): 10 files, no impossibilities.
+# C:\Program Files (x86)\GnuWin32\bin (key C:/Program Files (x86)/GnuWin32/bin, mtime 1621908156): 5 files, no impossibilities.
+
+# 4143 files, no impossibilities in 46 directories.
+
+# Implicit Rules
+
+# No implicit rules.
+
+# Files
+
+# Not a target:
+all:
+#  Command-line target.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has not been updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+makefile:
+#  A default, MAKEFILES, or -include/sinclude makefile.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Failed to be updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+.SUFFIXES:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+GNUmakefile:
+#  A default, MAKEFILES, or -include/sinclude makefile.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Failed to be updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# files hash-table stats:
+# Load=5/1024=0%, Rehash=0, Collisions=0/16=0%
+# VPATH Search Paths
+
+# No `vpath' search paths.
+
+# No general (`VPATH' variable) search path.
+
+# # of strings in strcache: 0
+# # of strcache buffers: 0
+# strcache size: total = 0 / max = 0 / min = 4096 / avg = 0
+# strcache free: total = 0 / max = 0 / min = 4096 / avg = 0
+
+# Finished Make data base on Sat Jan 08 19:08:23 2022
+
+ 
+make.exe: *** No rule to make target `all'.  Stop.
+ 
