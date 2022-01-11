@@ -1,0 +1,3817 @@
+make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 3.81
+# Copyright (C) 2006  Free Software Foundation, Inc.
+# This is free software; see the source for copying conditions.
+# There is NO warranty; not even for MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE.
+
+# This program built for i386-pc-mingw32
+ 
+'ls' is not recognized as an internal or external command,
+operable program or batch file.
+ 
+
+# Make data base, printed on Mon Jan 10 19:26:03 2022
+
+# Variables
+
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# automatic
+?F = $(notdir $?)
+# makefile
+MAKEFLAGS = Rrqp
+# environment
+VSCODE_LOG_NATIVE = false
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# environment
+HOMEDRIVE = C:
+# automatic
+@F = $(notdir $@)
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# makefile
+CURDIR := c:/Bao/interview stuff/EPIJudge/epi_judge_python
+# default
+SHELL := sh.exe
+# environment
+ 
+CLION = C:\Program Files\JetBrains\CLion 2019.1\bin;
+# environment
+WINDIR = C:\WINDOWS
+# environment
+VSCODE_NLS_CONFIG = {"locale":"en-us","availableLanguages":{},"_languagePackSupport":true}
+# environment
+PYCHARM COMMUNITY EDITION = C:\Program Files\JetBrains\PyCharm Community Edition 2018.3.4\bin;
+# environment
+ONEDRIVE = C:\Users\hgbao\OneDrive
+# makefile (from `makefile', line 9)
+TEST_DATA_DIR := ../test_data
+# environment
+QSYS_ROOTDIR = C:\intelFPGA_lite\21.1\quartus\sopc_builder\bin
+# environment
+MOSQUITTO_DIR = C:\Program Files\mosquitto
+# environment
+PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+# makefile (from `makefile', line 1)
+MAKEFILE_LIST :=  makefile
+# environment
+FPS_BROWSER_USER_PROFILE_STRING = Default
+# environment
+TMP = C:\Users\hgbao\AppData\Local\Temp
+# environment
+VSCODE_VERBOSE_LOGGING = true
+# environment
+PROGRAMW6432 = C:\Program Files
+# environment
+COMPOSE_CONVERT_WINDOWS_PATHS = true
+# environment
+PROGRAMDATA = C:\ProgramData
+# environment
+VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-a18a330f-ca6d-4047-90a3-b0ff776b13c7-sock
+# environment
+VSCODE_CWD = C:\Users\hgbao\AppData\Local\Programs\Microsoft VS Code
+# environment
+PATH = C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\Windows\System32;C:\Windows;C:\Windows\System32\wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\DTS\Binn\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files\Git\cmd;C:\Program Files\Java\jdk-11.0.2\bin;C:\Users\hgbao\AppData\Roaming\Python\Python37\Scripts;C:\MinGW\bin;C:\Program Files\PuTTY\;C:\Program Files\Go\bin;C:\Program Files\Pandoc\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files (x86)\GnuWin32\bin;C:\Program Files\nodejs\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Users\hgbao\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\hgbao\AppData\Local\Programs\Python\Python39\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\hgbao\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\PyCharm Community Edition 2018.3.4\bin;C:\Users\hgbao\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\JetBrains\CLion 2019.1\bin;C:\Users\hgbao\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\IntelliJ IDEA 2019.2.3\bin;;C:\FFmpeg\bin;C:\Users\hgbao\go\bin;C:\Program Files\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin;C:\Users\hgbao\AppData\Local\GitHubDesktop\bin;C:\Users\hgbao\AppData\Roaming\npm;C:\Users\hgbao\AppData\Local\Programs\Python\Python37\;
+# environment
+SW_SIM_HYDRA = C:\Program Files\Common Files\SolidWorks Shared\Simulation Worker Agent\
+# environment
+COMMONPROGRAM 
+W6432 = C:\Program Files\Common Files
+# environment
+PROCESSOR_ARCHITECTURE = x86
+# environment
+USERPROFILE = C:\Users\hgbao
+# environment
+ALLUSERSPROFILE = C:\ProgramData
+# environment
+GOPATH = C:\Users\hgbao\go
+# environment
+SOPC_KIT_NIOS2 = C:\intelFPGA_lite\21.1\nios2eds
+# environment
+VSCODE_LOG_STACK = false
+# environment
+NUMBER_OF_PROCESSORS = 8
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# default
+.FEATURES := target-specific order-only second-expansion else-if archives
+# environment
+INTELLIJ IDEA = C:\Program Files\JetBrains\IntelliJ IDEA 2019.2.3\bin;
+# automatic
+%F = $(notdir $%)
+# environment
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_16696_RBYCGGQPZMDAAPFX
+# environment
+VSCODE_PIPE_LOGGING = true
+# environment
+COMPUTERNAME = DESKTOP-US9KI22
+# environment
+PROGRAMFILES = C:\Program Files (x86)
+# environment
+DRIVERDATA = C:\Windows\System32\Drivers\DriverData
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = undefined
+# environment
+USERNAME = hgbao
+# environment
+PUBLIC = C:\Users\Public
+# environment
+VSCODE_ 
+AMD_ENTRYPOINT = vs/workbench/services/extensions/node/extensionHostProcess
+# environment
+VSCODE_CODE_CACHE_PATH = C:\Users\hgbao\AppData\Roaming\Code\CachedData\899d46d82c4c95423fb7e10e68eba52050e30ba3
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+# environment
+COMMONPROGRAMFILES = C:\Program Files (x86)\Common Files
+# environment
+LOGONSERVER = \\DESKTOP-US9KI22
+# environment
+ONEDRIVECONSUMER = C:\Users\hgbao\OneDrive
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# environment
+USERDOMAIN = DESKTOP-US9KI22
+# default
+MAKE = $(MAKE_COMMAND)
+# default
+MAKECMDGOALS := all
+# makefile (from `makefile', line 7)
+BUILD_DIR := __pycache__
+# default
+MAKE_VERSION := 3.81
+# makefile
+.DEFAULT_GOAL := last
+# environment
+PROGRAMFILES(X86) = C:\Program Files (x86)
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# environment
+LOCALAPPDATA = C:\Users\hgbao\AppData\Local
+# environment
+PSMODULEPATH = C:\Users\hgbao\Documents\WindowsPowerShell\Modules;
+# default
+MAKE_COMMAND := make.exe
+# environment
+PROCESSOR_ 
+ARCHITEW6432 = AMD64
+# default
+.VARIABLES := 
+# automatic
+*F = $(notdir $*)
+# environment
+PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 142 Stepping 10, GenuineIntel
+# environment
+OS = Windows_NT
+# environment
+VSCODE_IPC_HOOK = \\.\pipe\4475ea8744028280bb8d66a2bbe3256f-1.63.2-main-sock
+# environment
+HOMEPATH = \Users\hgbao
+# environment
+COMMONPROGRAMFILES(X86) = C:\Program Files (x86)\Common Files
+# environment
+PROMPT = $P$G
+# environment
+MFLAGS = -Rrqp
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# environm 
+ent
+SYSTEMROOT = C:\WINDOWS
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# automatic
++F = $(notdir $+)
+# environment
+APPDATA = C:\Users\hgbao\AppData\Roaming
+# environment
+TEMP = C:\Users\hgbao\AppData\Local\Temp
+# environment
+COMSPEC = C:\WINDOWS\system32\cmd.exe
+# default
+MAKEFILES := 
+# environment
+QUARTUS_ROOTDIR = C:\intelFPGA_lite\21.1\quartus
+# makefile (from `makefile', line 8)
+SRC_DIR := .
+# automatic
+<F = $(notdir $<)
+# environment
+LC_ALL = C
+# environment
+CONFIGSETROOT = C:\WINDOWS\ConfigSetRoot
+# environment
+SW_SIM_TEMP = C:\ProgramData\SOLIDWORKS\SW_net_sim_temp\
+# automatic
+^F = $(notdir $^)
+# default
+SUFFIXES := 
+# environment
+SYSTEMDRIVE = C:
+# environment
+SESSIONNAME = Console
+# environment
+PROCESSOR_REVISION = 8e0a
+# environment
+SW_SIM_MPIT = INTELMPI
+# makefile (from `makefile', line 14)
+PYTHON_COMPILER := python3
+# environment
+MAKELEVEL := 0
+# makefile (from `makefile', line 12)
+PROGRAM_ARGS := --test-data-dir ../test_data 
+# environment
+LANG = C
+# environment
+PROCESSOR_LEVEL = 6
+# environment
+FPS_BROWSER_APP_PROFILE_STRING = Internet Explorer
+# makefile (from `makefile', line 15)
+LAST_MODIFIED_PYTHON_FILE = $(shell ls -rt $(SRC_DIR)/$(MAIN_PACKAGE)/*\.py | tail -1)
+# environment
+VSCODE_PID = 16696
+# environment
+USERDOMAIN_ROAMINGPROFILE = DESKTOP-US9KI22
+# variable set hash-table stats:
+# Load=108/1024=11%, Rehash=0, Collisions=9/136=7%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# : could not be stat'd.
+# C:\Program Files\JetBrains\CLion 2019. 
+1\bin: could not be stat'd.
+# C:\Program Files\Common Files\Oracle\Java\javapath (key C:/Program Files/Common Files/Oracle/Java/javapath, mtime 1641678144): 6 files, no impossibilities.
+# C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\ (key C:/Program Files (x86)/Intel/Intel(R) Management Engine Components/iCLS/, mtime 1535685274): 8 files, no impossibilities.
+# C:\Program Files\Go\bin (key C:/Program Files/Go/bin, mtime 1602445881): 4 files, no impossibilities.
+# C:\Program Files\P 
+andoc\ (key C:/Program Files/Pandoc/, mtime 1603040383): 6 files, no impossibilities.
+# C:\Windows\System32\WindowsPowerShell\v1.0\ (key C:/Windows/System32/WindowsPowerShell/v1.0/, mtime 1622895072): 30 files, no impossibilities.
+# C:\Windows\System32\wbem (key C:/Windows/System32/wbem, mtime 1640135874): 154 files, no impossibilities.
+# . (key c:/Bao/interview stuff/EPIJudge/epi_judge_python, mtime 1641871563): 232 files, no impossibilities.
+# C:\Program Files (x86)\Windows Kits\8.1\Windows Performance To 
+olkit\ (key C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/, mtime 1547961199): 73 files, no impossibilities.
+# C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common (key C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common, mtime 1547961434): 5 files, no impossibilities.
+# C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\ (key C:/Program Files (x86)/Microsoft SQL Server/120/Tools/Binn/, mtime 1547961093): 12 files, no impossibilities.
+# C:\Users\hgbao\AppData\Local\Programs\Python\Python37\ (key C:/Users/hgbao/AppData/Local/Programs/Python/Python37/, mtime 1633723267): 19 files, no impossibilities.
+# C:\Program Files\Microsoft SQL Server\120\DTS\Binn\ (key C:/Program Files/Microsoft SQL Server/120/DTS/Binn/, mtime 1547961132): 38 files, no impossibilities.
+# C:\FFmpeg\bin: could not be stat'd.
+# C:\Program Files\nodejs\ (key C:/Program Files/nodejs/, mtime 1624817106): 11 files, no impossibilities.
+# C:\Program Files\Java\jdk-11.0.2\bin (key C:/Program Files/Java/jdk-11.0.2/ 
+bin, mtime 1548376173): 123 files, no impossibilities.
+# C:\MinGW\bin (key C:/MinGW/bin, mtime 1554321814): 142 files, no impossibilities.
+# C:\Program Files\MySQL\MySQL Shell 8.0\bin\ (key C:/Program Files/MySQL/MySQL Shell 8.0/bin/, mtime 1595466807): 7 files, no impossibilities.
+# C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\: could not be stat'd.
+# C:\Users\hgbao\AppData\Local\Programs\Microsoft VS Code\bin (key C:/Users/hgbao/AppData/Local/Programs/Microsoft VS Code/bin, mtime 1 
+641443679): 4 files, no impossibilities.
+# C:\Program Files\Intel\Intel(R) Management Engine Components\IPT (key C:/Program Files/Intel/Intel(R) Management Engine Components/IPT, mtime 1535685246): 5 files, no impossibilities.
+# C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\110\Tools\Binn\ (key C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/110/Tools/Binn/, mtime 1547961131): 6 files, no impossibilities.
+# C:\Windows\System32\OpenSSH\: could not be stat'd.
+# C:\Program Files\PuTTY\ (key C:/Pr 
+ogram Files/PuTTY/, mtime 1596687340): 12 files, no impossibilities.
+# C:\Program Files (x86)\Common Files\Oracle\Java\javapath (key C:/Program Files (x86)/Common Files/Oracle/Java/javapath, mtime 1606202581): 5 files, no impossibilities.
+# C:\Users\hgbao\AppData\Roaming\npm (key C:/Users/hgbao/AppData/Roaming/npm, mtime 1619556152): 23 files, no impossibilities.
+# C:\Program Files\JetBrains\PyCharm Community Edition 2018.3.4\bin: could not be stat'd.
+# C:\Program Files\Intel\Intel(R) Management Engine Comp 
+onents\DAL (key C:/Program Files/Intel/Intel(R) Management Engine Components/DAL, mtime 1535685246): 4 files, no impossibilities.
+# C:\Windows (key C:/Windows, mtime 1640141397): 129 files, no impossibilities.
+# C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\ (key C:/Program Files/Intel/Intel(R) Management Engine Components/iCLS/, mtime 1535685273): 11 files, no impossibilities.
+# C:\Program Files\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin (key C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin, mtime 1554320014): 58 files, no impossibilities.
+# C:\Program Files\JetBrains\IntelliJ IDEA 2019.2.3\bin: could not be stat'd.
+# C:\Users\hgbao\AppData\Local\Programs\Python\Python39\ (key C:/Users/hgbao/AppData/Local/Programs/Python/Python39/, mtime 1634273414): 20 files, no impossibilities.
+# C:\Users\hgbao\AppData\Local\GitHubDesktop\bin (key C:/Users/hgbao/AppData/Local/GitHubDesktop/bin, mtime 1624165957): 4 files, no impossibilities.
+# C:\Users\hgbao\AppData\ 
+Local\Microsoft\WindowsApps (key C:/Users/hgbao/AppData/Local/Microsoft/WindowsApps, mtime 1641867424): 49 files, no impossibilities.
+# C:\Program Files\Microsoft SQL Server\120\Tools\Binn\ (key C:/Program Files/Microsoft SQL Server/120/Tools/Binn/, mtime 1547961093): 14 files, no impossibilities.
+# C:\Users\hgbao\AppData\Local\Programs\Python\Python39\Scripts\ (key C:/Users/hgbao/AppData/Local/Programs/Python/Python39/Scripts/, mtime 1637809406): 12 files, no impossibilities.
+# C:\Program Files\Git\cmd (ke 
+y C:/Program Files/Git/cmd, mtime 1548272433): 8 files, no impossibilities.
+# C:\Windows\System32 (key C:/Windows/System32, mtime 1641843197): 3053 files, no impossibilities.
+# C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT (key C:/Program Files (x86)/Intel/Intel(R) Management Engine Components/IPT, mtime 1535685246): 6 files, no impossibilities.
+# C:\Users\hgbao\go\bin (key C:/Users/hgbao/go/bin, mtime 1633190163): 3 files, no impossibilities.
+# C:\Users\hgbao\AppData\Roaming\Python 
+\Python37\Scripts (key C:/Users/hgbao/AppData/Roaming/Python/Python37/Scripts, mtime 1619742036): 39 files, no impossibilities.
+# C:\Program Files\Microsoft SQL Server\130\Tools\Binn\ (key C:/Program Files/Microsoft SQL Server/130/Tools/Binn/, mtime 1610671224): 4 files, no impossibilities.
+# C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL (key C:/Program Files (x86)/Intel/Intel(R) Management Engine Components/DAL, mtime 1535685246): 10 files, no impossibilities.
+# C:\Program Files (x 
+86)\GnuWin32\bin (key C:/Program Files (x86)/GnuWin32/bin, mtime 1621908156): 5 files, no impossibilities.
+
+# 4354 files, no impossibilities in 46 directories.
+
+# Implicit Rules
+
+# No implicit rules.
+
+# Files
+
+buy_and_sell_stock_k_times: buy_and_sell_stock_k_times.py
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 146):
+	$(PYTHON_COMPILER) $< $(PROGRAM_ARGS)
+	
+
+count_inversions: count_inversions.py
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 226):
+	$(PYTHON_COMPILER) $< $(PROGRAM_ARGS)
+	
+
+# Not a target:
+do_lists_overlap.py:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+random_permutation: random_permutation.py
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 1218):
+	$(PYTHON_COMPILER) $< $(PROGRAM_ARGS)
+	
+
+intervals_union: intervals_union.py
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 530):
+	$(PYTHON_COMPILER) $< $(PROGRAM_ARGS)
+	
+
+# Not a target:
+k_largest_values_in_bst.py:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+power_set: power_set.py
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 1154):
+	$(PYTHON_COMPILER) $< $(PROGRAM_ARGS)
+	
+
+# Not a target:
+deadlock_detection.py:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+remove_duplicates.py:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+string_decompositions_into_dictionary_words: string_decompositions_into_dictionary_words.py
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 1578):
+	$(PYTHON_COMPILER) $< $(PROGRAM_ARGS)
+	
+
+# Not a target:
+maximum_subarray_in_circular_array.py:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+road_network: road_network.py
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 1330):
+	$(PYTHON_COMPILER) $< $(PROGRAM_ARGS)
+	
+
+pivot_list: pivot_list.py
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 1146):
+	$(PYTHON_COMPILER) $< $(PROGRAM_ARGS)
+	
+
+# Not a target:
+knapsack.py:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+sort_list.py:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+parity.py:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+picking_up_coins.py:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+insert_operators_in_string: insert_operators_in_string.py
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 474):
+	$(PYTHON_COMPILER) $< $(PROGRAM_ARGS)
+	
+
+alternating_array: alternating_array.py
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 58):
+	$(PYTHON_COMPILER) $< $(PROGRAM_ARGS)
+	
+
+dutch_national_flag: dutch_national_flag.py
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 314):
+	$(PYTHON_COMPILER) $< $(PROGRAM_ARGS)
+	
+
+# Not a target:
+insert_in_list.py:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+sudoku_solve: sudoku_solve.py
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 1618):
+	$(PYTHON_COMPILER) $< $(PROGRAM_ARGS)
+	
+
+# Not a target:
+permutations.py:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+buy_and_sell_stock_k_times.py:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+find_salary_threshold: find_salary_threshold.py
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 394):
+	$(PYTHON_COMPILER) $< $(PROGRAM_ARGS)
+	
+
+task_pairing: task_pairing.py
+#  Phony target (prer 
+equisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 1650):
+	$(PYTHON_COMPILER) $< $(PROGRAM_ARGS)
+	
+
+# Not a target:
+count_inversions.py:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+search_in_bst: search_in_bst.py
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 1418):
+	$(PYTHON_COMPILER) $< $(PROGRAM_ARGS)
+	
+
+a_b_sqrt2: a_b_sqrt2.py
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 26):
+	$(PYTHON_COMPILER) $< $(PROGRAM_ARGS)
+	
+
+defective_jugs: defective_jugs.py
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist. 
+
+#  File has not been updated.
+#  commands to execute (from `makefile', line 242):
+	$(PYTHON_COMPILER) $< $(PROGRAM_ARGS)
+	
+
+# Not a target:
+random_permutation.py:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+intervals_union.py:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+number_of_traversals_matrix: number_of_traversals_matrix.py
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 1058):
+	$(PYTHON_COMPILER) $< $(PROGRAM_ARGS)
+	
+
+search_entry_equal_to_index: search_entry_equal_to_index.py
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 1370):
+	$(PYTHON_COMPILER) $< $(PROGRAM_ARGS)
+	
+
+is_tree_symmetri 
+c: is_tree_symmetric.py
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 642):
+	$(PYTHON_COMPILER) $< $(PROGRAM_ARGS)
+	
+
+sort_almost_sorted_array: sort_almost_sorted_array.py
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 1498):
+	$(PYTHON 
+_COMPILER) $< $(PROGRAM_ARGS)
+	
+
+directory_path_normalization: directory_path_normalization.py
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 282):
+	$(PYTHON_COMPILER) $< $(PROGRAM_ARGS)
+	
+
+remove_duplicates_from_sorted_list: remove_duplicates_from_sorted_list.py
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+# 
+  File has not been updated.
+#  commands to execute (from `makefile', line 1282):
+	$(PYTHON_COMPILER) $< $(PROGRAM_ARGS)
+	
+
+# Not a target:
+alternating_array.py:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+left_right_justify_text: left_right_justify_text.py
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 738 
+):
+	$(PYTHON_COMPILER) $< $(PROGRAM_ARGS)
+	
+
+# Not a target:
+search_in_list.py:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+number_of_score_combinations.py:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+insert_operators_in_string.py:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+search 
+_first_key: search_first_key.py
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 1386):
+	$(PYTHON_COMPILER) $< $(PROGRAM_ARGS)
+	
+
+all:
+#  Phony target (prerequisite of .PHONY).
+#  Command-line target.
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+
+collatz_checker: collatz_checker.py
+#  Phony target (pre 
+requisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 186):
+	$(PYTHON_COMPILER) $< $(PROGRAM_ARGS)
+	
+
+# Not a target:
+sudoku_solve.py:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+tree_preorder: tree_preorder.py
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not 
+ been updated.
+#  commands to execute (from `makefile', line 1722):
+	$(PYTHON_COMPILER) $< $(PROGRAM_ARGS)
+	
+
+# Not a target:
+is_tree_a_bst.py:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+phone_number_mnemonic: phone_number_mnemonic.py
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 1130):
+	$(PYTHON_COMPILER 
+) $< $(PROGRAM_ARGS)
+	
+
+levenshtein_distance: levenshtein_distance.py
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 746):
+	$(PYTHON_COMPILER) $< $(PROGRAM_ARGS)
+	
+
+is_string_decomposable_into_words: is_string_decomposable_into_words.py
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated 
+.
+#  commands to execute (from `makefile', line 586):
+	$(PYTHON_COMPILER) $< $(PROGRAM_ARGS)
+	
+
+# Not a target:
+defective_jugs.py:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+find_salary_threshold.py:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+task_pairing.py:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File 
+ has not been updated.
+
+# Not a target:
+sort_almost_sorted_array.py:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+search_in_list: search_in_list.py
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 1426):
+	$(PYTHON_COMPILER) $< $(PROGRAM_ARGS)
+	
+
+successor_in_tree: successor_in_tree.py
+#  Phony target (prerequi 
+site of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 1610):
+	$(PYTHON_COMPILER) $< $(PROGRAM_ARGS)
+	
+
+combinations: combinations.py
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 194):
+	$(PYTHON_COMPILER) $< $(PROGRAM_ARGS)
+	
+
+# Not a target:
+remove_duplicates_from_s 
+orted_list.py:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+sort_increasing_decreasing_array: sort_increasing_decreasing_array.py
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 1506):
+	$(PYTHON_COMPILER) $< $(PROGRAM_ARGS)
+	
+
+largest_rectangle_under_skyline: largest_rectangle_under_skyline.py
+#  Phony target 
+ (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 730):
+	$(PYTHON_COMPILER) $< $(PROGRAM_ARGS)
+	
+
+# Not a target:
+left_right_justify_text.py:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+is_tree_symmetric.py:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been up 
+dated.
+
+primitive_multiply: primitive_multiply.py
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 1194):
+	$(PYTHON_COMPILER) $< $(PROGRAM_ARGS)
+	
+
+# Not a target:
+is_string_permutable_to_palindrome.py:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+even_odd_array: even_odd_array.py
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 370):
+	$(PYTHON_COMPILER) $< $(PROGRAM_ARGS)
+	
+
+descendant_and_ancestor_in_bst: descendant_and_ancestor_in_bst.py
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 274):
+	$(PYTHON_COMPILER) $< $(PROGRAM_ARGS)
+	
+
+# Not a t 
+arget:
+string_transformability.py:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+enumerate_trees: enumerate_trees.py
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 346):
+	$(PYTHON_COMPILER) $< $(PROGRAM_ARGS)
+	
+
+# Not a target:
+tree_preorder.py:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+.PHONY: last a_b_sqrt2 absent_value_array adding_credits advance_by_offsets alternating_array anagrams apply_permutation arbitrage binomial_coefficients bonus bst_from_preorder bst_from_sorted_array bst_merge bst_to_sorted_list buy_and_sell_stock buy_and_sell_stock_k_times buy_and_sell_stock_twice calendar_rendering circular_queue closest_int_same_weight collatz_checker combinations convert_base copy_posting_list count_bits count_inversions deadlock_detection defective_jugs delete_from_list delete_kth_last_from_list delete_node_from_list descendant_and_ancestor_in_bst directory_path_normalization do_lists_overlap do_terminated_lists_overlap drawing_skyline dutch_national_flag element_appearing_once enumerate_balanced_parentheses enumerate_palindromic_decompositions enumerate_trees euclidean_gcd evaluate_rpn even_odd_array even_odd_list_merge fibonacci find_salary_threshold first_missing_positive_entry gcd graph_clone gray_code group_equal_entries h_index hanoi huffman_coding insert_in_list insert_operators_in_string int_as_array_increment int_as_array_multiply int_as_list_add int_square_root intersect_sorted_arrays interval_add intervals_union is_anonymous_letter_constructible is_array_dominated is_circuit_wirable is_list_cyclic is_list_palindromic is_number_palindromic is_string_decomposable_into_words is_string_in_matrix is_string_palindromic is_string_palindromic_punctuation is_string_permutable_to_palindrome is_tree_a_bst is_tree_balanced is_tree_symmetric is_valid_parenthesization is_valid_sudoku k_closest_stars k_largest_in_heap k_largest_values_in_bst knapsack kth_largest_element_in_long_array kth_largest_element_in_two_sorted_arrays kth_largest_in_array kth_node_in_tree largest_rectangle_under_skyline left_right_justify_text levenshtein_distance line_through_most_points list_cyclic_right_shift longest_contained_interval longest_increasing_subarray longest_nondecreasing_subsequence longest_subarray_with_distinct_values longest_subarray_with_sum_constraint longest_substring_with_matching_parentheses look_and_say lowest_common_ancestor lowest_common_ancestor_close_ancestor lowest_common_ancestor_in_bst lowest_common_ancestor_with_parent lru_cache majority_element making_change matrix_connected_regions matrix_enclosed_regions matrix_rotation max_of_sliding_window max_product_all_but_one max_safe_height max_square_submatrix max_submatrix max_sum_subarray max_teams_in_photograph max_trapped_water max_water_trappable maximum_subarray_in_circular_array minimum_distance_3_sorted_arrays minimum_points_covering_intervals minimum_waiting_time minimum_weight_path_in_a_triangle n_queens nearest_repeated_entries next_permutation nonuniform_random_number number_of_score_combinations number_of_traversals_matrix number_of_traversals_staircase offline_sampling online_median online_sampling parity pascal_triangle path_sum permutations phone_number_mnemonic picking_up_coins pivot_list power_set power_x_y pretty_printing prime_sieve primitive_divide primitive_multiply queue_from_stacks queue_with_max random_permutation random_subset range_lookup_in_bst real_square_root rectangle_intersection refueling_schedule regular_expression remove_duplicates remove_duplicates_from_sorted_list replace_and_remove reverse_bits reverse_digits reverse_sublist reverse_words road_network roman_to_integer rook_attack rotate_array run_length_compression search_entry_equal_to_index search_first_greater_value_in_bst search_first_key search_for_min_max_in_array search_for_missing_element search_frequent_items search_in_bst search_in_list search_maze search_row_col_sorted_matrix search_shifted_sorted_array search_unknown_length_array smallest_nonconstructible_value smallest_subarray_covering_all_values smallest_subarray_covering_set snake_string sort_almost_sorted_array sort_increasing_decreasing_array sort_list sorted_array_remove_dups sorted_arrays_merge sorted_list_to_bst sorted_lists_merge spiral_ordering spreadsheet_encoding stack_with_max string_decompositions_into_dictionary_words string_integer_interconversion string_transformability substring_match successor_in_tree sudoku_solve sum_root_to_leaf sunset_view swap_bits task_pairing three_sum tree_connect_leaves tree_exterior tree_from_preorder_inorder tree_from_preorder_with_null tree_inorder tree_level_order tree_postorder tree_preorder tree_right_sibling tree_with_parent_inorder two_sorted_arrays_merge two_sum uniform_random_number valid_ip_addresses zip_list all clean
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File ha 
+s not been updated.
+
+search_first_greater_value_in_bst: search_first_greater_value_in_bst.py
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 1378):
+	$(PYTHON_COMPILER) $< $(PROGRAM_ARGS)
+	
+
+line_through_most_points: line_through_most_points.py
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been u 
+pdated.
+#  commands to execute (from `makefile', line 754):
+	$(PYTHON_COMPILER) $< $(PROGRAM_ARGS)
+	
+
+# Not a target:
+minimum_waiting_time.py:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+is_array_dominated.py:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+is_string_permutable_to_palindrome: is_string_permutable_to_palindrome.py
+#  Phony target (prerequisite of .PH 
+ONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 618):
+	$(PYTHON_COMPILER) $< $(PROGRAM_ARGS)
+	
+
+first_missing_positive_entry: first_missing_positive_entry.py
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 402):
+	$(PYTHON_COMPILER) $< $(PROGRAM_ARGS)
+	
+
+path_sum: path_sum.py
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 1114):
+	$(PYTHON_COMPILER) $< $(PROGRAM_ARGS)
+	
+
+nonuniform_random_number: nonuniform_random_number.py
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 1042):
+	$(PYTHON_COMPILER) $< $(PROGR 
+AM_ARGS)
+	
+
+# Not a target:
+phone_number_mnemonic.py:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+k_largest_values_in_bst: k_largest_values_in_bst.py
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 682):
+	$(PYTHON_COMPILER) $< $(PROGRAM_ARGS)
+	
+
+lowest_common_ancestor_with_parent: lowest_common_ancestor_with 
+_parent.py
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 850):
+	$(PYTHON_COMPILER) $< $(PROGRAM_ARGS)
+	
+
+minimum_points_covering_intervals: minimum_points_covering_intervals.py
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 994):
+	$(PY 
+THON_COMPILER) $< $(PROGRAM_ARGS)
+	
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+max_safe_height.py:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+lowest_common_ancestor: lowest_common_ancestor.py
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  c 
+ommands to execute (from `makefile', line 826):
+	$(PYTHON_COMPILER) $< $(PROGRAM_ARGS)
+	
+
+# Not a target:
+directory_path_normalization.py:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+search_shifted_sorted_array.py:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+range_lookup_in_bst: range_lookup_in_bst.py
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule se 
+arch has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 1234):
+	$(PYTHON_COMPILER) $< $(PROGRAM_ARGS)
+	
+
+# Not a target:
+descendant_and_ancestor_in_bst.py:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+delete_kth_last_from_list: delete_kth_last_from_list.py
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has n 
+ot been updated.
+#  commands to execute (from `makefile', line 258):
+	$(PYTHON_COMPILER) $< $(PROGRAM_ARGS)
+	
+
+reverse_digits: reverse_digits.py
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 1306):
+	$(PYTHON_COMPILER) $< $(PROGRAM_ARGS)
+	
+
+# Not a target:
+search_first_greater_value_in_bst.py:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+ 
+#  File has not been updated.
+
+# Not a target:
+element_appearing_once.py:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+line_through_most_points.py:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+count_bits: count_bits.py
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  comma 
+nds to execute (from `makefile', line 218):
+	$(PYTHON_COMPILER) $< $(PROGRAM_ARGS)
+	
+
+kth_largest_element_in_two_sorted_arrays: kth_largest_element_in_two_sorted_arrays.py
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 706):
+	$(PYTHON_COMPILER) $< $(PROGRAM_ARGS)
+	
+
+# Not a target:
+first_missing_positive_entry.py:
+#  Implicit rule search has not been done.
+#  Modification 
+ time never checked.
+#  File has not been updated.
+
+# Not a target:
+smallest_nonconstructible_value.py:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+search_maze.py:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+making_change: making_change.py
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not 
+ been updated.
+#  commands to execute (from `makefile', line 874):
+	$(PYTHON_COMPILER) $< $(PROGRAM_ARGS)
+	
+
+# Not a target:
+nonuniform_random_number.py:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+lowest_common_ancestor_with_parent.py:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+matrix_connected_regions.py:
+#  Implicit rule search has not been d 
+one.
+#  Modification time never checked.
+#  File has not been updated.
+
+search_for_missing_element: search_for_missing_element.py
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 1402):
+	$(PYTHON_COMPILER) $< $(PROGRAM_ARGS)
+	
+
+# Not a target:
+path_sum.py:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+group_equal_entries: group_equal_entries.py
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 434):
+	$(PYTHON_COMPILER) $< $(PROGRAM_ARGS)
+	
+
+# Not a target:
+minimum_points_covering_intervals.py:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+search_unknown_length_array: search_unknown_length_array.py
+#  Phony target (pre 
+requisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 1458):
+	$(PYTHON_COMPILER) $< $(PROGRAM_ARGS)
+	
+
+# Not a target:
+lowest_common_ancestor.py:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+smallest_subarray_covering_set: smallest_subarray_covering_set.py
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been  
+done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 1482):
+	$(PYTHON_COMPILER) $< $(PROGRAM_ARGS)
+	
+
+# Not a target:
+range_lookup_in_bst.py:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+smallest_nonconstructible_value: smallest_nonconstructible_value.py
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 1466):
+	$(PYTHON_COMPILER) $< $(PROGRAM_ARGS)
+	
+
+# Not a target:
+search_for_missing_element.py:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+is_valid_sudoku: is_valid_sudoku.py
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 658):
+	$(PYTHON_COMPILER) $< $(PROGRAM_ 
+ARGS)
+	
+
+# Not a target:
+primitive_multiply.py:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+delete_kth_last_from_list.py:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+list_cyclic_right_shift: list_cyclic_right_shift.py
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 762):
+	$(PYTHON_COMPILER) $< $(PROGRAM_ARGS)
+	
+
+# Not a target:
+reverse_digits.py:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+is_valid_parenthesization.py:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+evaluate_rpn.py:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+reverse_bits.py:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+count_bits.py:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+kth_largest_element_in_two_sorted_arrays.py:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+knapsack: knapsack.py
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 690):
+	$(PYTHON_COMPILER) $< $(PROGRAM_ARGS)
+	
+
+# Not a target:
+is_string_decomposable_into_words.py:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+apply_permutation: apply_permutation.py
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  Fil 
+e does not exist.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 74):
+	$(PYTHON_COMPILER) $< $(PROGRAM_ARGS)
+	
+
+# Not a target:
+spiral_ordering.py:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+even_odd_list_merge: even_odd_list_merge.py
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 378):
+	$(PYTHON_COMPILER) $< $(PROGRAM_ARGS)
+	
+
+# Not a target:
+collatz_checker.py:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+search_unknown_length_array.py:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+replace_and_remove: replace_and_remove.py
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  Fi 
+le has not been updated.
+#  commands to execute (from `makefile', line 1290):
+	$(PYTHON_COMPILER) $< $(PROGRAM_ARGS)
+	
+
+refueling_schedule: refueling_schedule.py
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 1258):
+	$(PYTHON_COMPILER) $< $(PROGRAM_ARGS)
+	
+
+# Not a target:
+making_change.py:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#   
+File has not been updated.
+
+two_sum: two_sum.py
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 1754):
+	$(PYTHON_COMPILER) $< $(PROGRAM_ARGS)
+	
+
+# Not a target:
+even_odd_array.py:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+smallest_subarray_covering_set.py:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+max_product_all_but_one: max_product_all_but_one.py
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 914):
+	$(PYTHON_COMPILER) $< $(PROGRAM_ARGS)
+	
+
+# Not a target:
+is_valid_sudoku.py:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+subst 
+ring_match: substring_match.py
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 1602):
+	$(PYTHON_COMPILER) $< $(PROGRAM_ARGS)
+	
+
+# Not a target:
+list_cyclic_right_shift.py:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+sorted_lists_merge: sorted_lists_merge.py
+#  Phony target (prerequisite of .PHONY).
+#  Implic 
+it rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 1546):
+	$(PYTHON_COMPILER) $< $(PROGRAM_ARGS)
+	
+
+buy_and_sell_stock: buy_and_sell_stock.py
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 138):
+	$(PYTHON_COMPILER) $< $(PROGRAM_ARGS)
+	
+
+# Not a target:
+largest_rectangle_under_skyline.py:
+#  
+ Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+power_x_y.py:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+matrix_enclosed_regions: matrix_enclosed_regions.py
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 890):
+	$(PYTHON_COMPILER) $ 
+< $(PROGRAM_ARGS)
+	
+
+spiral_ordering: spiral_ordering.py
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 1554):
+	$(PYTHON_COMPILER) $< $(PROGRAM_ARGS)
+	
+
+# Not a target:
+apply_permutation.py:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+is_tree_balanced: is_tree_balanced.py
+#  Phony target (prerequisite of .P 
+HONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 634):
+	$(PYTHON_COMPILER) $< $(PROGRAM_ARGS)
+	
+
+# Not a target:
+copy_posting_list.py:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+rotate_array.py:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+is_list 
+_palindromic.py:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+makefile:
+#  Implicit rule search has been done.
+#  Last modified 2022-01-04 20:46:16
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+closest_int_same_weight: closest_int_same_weight.py
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not  
+exist.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 178):
+	$(PYTHON_COMPILER) $< $(PROGRAM_ARGS)
+	
+
+# Not a target:
+even_odd_list_merge.py:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+replace_and_remove.py:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+refueling_schedule.py:
+#  Implicit rule search has not been done.
+ 
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+minimum_distance_3_sorted_arrays.py:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+parity: parity.py
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 1098):
+	$(PYTHON_COMPILER) $< $(PROGRAM_ARGS)
+	
+
+euclidean_gcd: euclidean_gcd.p 
+y
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 354):
+	$(PYTHON_COMPILER) $< $(PROGRAM_ARGS)
+	
+
+online_sampling: online_sampling.py
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 1090):
+	$(PYTHON_COMPILER) $< $(PROGRAM_ARGS)
+	
+
+longest_substring_with_matching_parentheses: longest_substring_with_matching_parentheses.py
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 810):
+	$(PYTHON_COMPILER) $< $(PROGRAM_ARGS)
+	
+
+# Not a target:
+sort_increasing_decreasing_array.py:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+picking_up_coins: picking_up_co 
+ins.py
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 1138):
+	$(PYTHON_COMPILER) $< $(PROGRAM_ARGS)
+	
+
+# Not a target:
+max_water_trappable.py:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+buy_and_sell_stock.py:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#   
+File has not been updated.
+
+# Not a target:
+stack_with_max.py:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+sorted_lists_merge.py:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+stack_with_max: stack_with_max.py
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to ex 
+ecute (from `makefile', line 1570):
+	$(PYTHON_COMPILER) $< $(PROGRAM_ARGS)
+	
+
+minimum_weight_path_in_a_triangle: minimum_weight_path_in_a_triangle.py
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 1010):
+	$(PYTHON_COMPILER) $< $(PROGRAM_ARGS)
+	
+
+# Not a target:
+matrix_enclosed_regions.py:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  Fi 
+le has not been updated.
+
+# Not a target:
+roman_to_integer.py:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+matrix_rotation: matrix_rotation.py
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 898):
+	$(PYTHON_COMPILER) $< $(PROGRAM_ARGS)
+	
+
+# Not a target:
+sorted_array_remove_dups.py:
+#  Implicit rule search h 
+as not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+tree_level_order: tree_level_order.py
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 1706):
+	$(PYTHON_COMPILER) $< $(PROGRAM_ARGS)
+	
+
+# Not a target:
+closest_int_same_weight.py:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+i 
+s_string_palindromic: is_string_palindromic.py
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 602):
+	$(PYTHON_COMPILER) $< $(PROGRAM_ARGS)
+	
+
+snake_string: snake_string.py
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 1490):
+	$(PYTHON_ 
+COMPILER) $< $(PROGRAM_ARGS)
+	
+
+# Not a target:
+max_submatrix.py:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+search_in_bst.py:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+delete_from_list.py:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+enumerate_balanced_parentheses: enumerate_bal 
+anced_parentheses.py
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 330):
+	$(PYTHON_COMPILER) $< $(PROGRAM_ARGS)
+	
+
+rectangle_intersection: rectangle_intersection.py
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 1250):
+	$(PYTHON_COMPIL 
+ER) $< $(PROGRAM_ARGS)
+	
+
+# Not a target:
+number_of_traversals_matrix.py:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+sorted_array_remove_dups: sorted_array_remove_dups.py
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 1522):
+	$(PYTHON_COMPILER) $< $(PROGRAM_ARGS)
+	
+
+# Not a target:
+euclidean_gcd.py:
+#  Imp 
+licit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+substring_match.py:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+reverse_words: reverse_words.py
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 1322):
+	$(PYTHON_COMPILER) $< $(PROGRAM_ARGS) 
+
+	
+
+pascal_triangle: pascal_triangle.py
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 1106):
+	$(PYTHON_COMPILER) $< $(PROGRAM_ARGS)
+	
+
+# Not a target:
+is_number_palindromic.py:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+graph_clone.py:
+#  Implicit rule search has not been done.
+#  Modifica 
+tion time never checked.
+#  File has not been updated.
+
+run_length_compression: run_length_compression.py
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 1362):
+	$(PYTHON_COMPILER) $< $(PROGRAM_ARGS)
+	
+
+# Not a target:
+matrix_rotation.py:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+minimum_we 
+ight_path_in_a_triangle.py:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+tree_level_order.py:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+max_sum_subarray: max_sum_subarray.py
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 946):
+	$(PYTHON_COMPILER) $< $(PROGRAM_ARGS)
+	
+
+gcd: gcd.py
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 410):
+	$(PYTHON_COMPILER) $< $(PROGRAM_ARGS)
+	
+
+is_valid_parenthesization: is_valid_parenthesization.py
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from 
+ `makefile', line 650):
+	$(PYTHON_COMPILER) $< $(PROGRAM_ARGS)
+	
+
+interval_add: interval_add.py
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 522):
+	$(PYTHON_COMPILER) $< $(PROGRAM_ARGS)
+	
+
+longest_contained_interval: longest_contained_interval.py
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not  
+been updated.
+#  commands to execute (from `makefile', line 770):
+	$(PYTHON_COMPILER) $< $(PROGRAM_ARGS)
+	
+
+is_circuit_wirable: is_circuit_wirable.py
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 554):
+	$(PYTHON_COMPILER) $< $(PROGRAM_ARGS)
+	
+
+# Not a target:
+enumerate_balanced_parentheses.py:
+#  Implicit rule search has not been done.
+#  Modification time never checked. 
+
+#  File has not been updated.
+
+bonus: bonus.py
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 98):
+	$(PYTHON_COMPILER) $< $(PROGRAM_ARGS)
+	
+
+prime_sieve: prime_sieve.py
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 1178):
+	$(PYTHON_COMPILER) $< $(PROGRAM_ARGS)
+	
+
+# Not a target:
+is_string_palindromic.py:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+string_decompositions_into_dictionary_words.py:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+reverse_bits: reverse_bits.py
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not b 
+een updated.
+#  commands to execute (from `makefile', line 1298):
+	$(PYTHON_COMPILER) $< $(PROGRAM_ARGS)
+	
+
+max_square_submatrix: max_square_submatrix.py
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 930):
+	$(PYTHON_COMPILER) $< $(PROGRAM_ARGS)
+	
+
+# Not a target:
+reverse_words.py:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+huffman_coding: huffman_coding.py
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 458):
+	$(PYTHON_COMPILER) $< $(PROGRAM_ARGS)
+	
+
+look_and_say: look_and_say.py
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 818):
+	$(PY 
+THON_COMPILER) $< $(PROGRAM_ARGS)
+	
+
+pretty_printing: pretty_printing.py
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 1170):
+	$(PYTHON_COMPILER) $< $(PROGRAM_ARGS)
+	
+
+# Not a target:
+max_sum_subarray.py:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+search_for_min_max_in_array: search_for_min_max_in_array.p 
+y
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 1394):
+	$(PYTHON_COMPILER) $< $(PROGRAM_ARGS)
+	
+
+# Not a target:
+run_length_compression.py:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+pascal_triangle.py:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+n_queens: n_queens.py
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 1018):
+	$(PYTHON_COMPILER) $< $(PROGRAM_ARGS)
+	
+
+smallest_subarray_covering_all_values: smallest_subarray_covering_all_values.py
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 1474):
+	$(PYTHON_COMPILER) $< $(PROGRAM_ARGS)
+	
+
+tree_with_parent_inorder: tree_with_parent_inorder.py
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 1738):
+	$(PYTHON_COMPILER) $< $(PROGRAM_ARGS)
+	
+
+absent_value_array: absent_value_array.py
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not 
+ exist.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 34):
+	$(PYTHON_COMPILER) $< $(PROGRAM_ARGS)
+	
+
+search_row_col_sorted_matrix: search_row_col_sorted_matrix.py
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 1442):
+	$(PYTHON_COMPILER) $< $(PROGRAM_ARGS)
+	
+
+intersect_sorted_arrays: intersect_sorted_arrays.py
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 514):
+	$(PYTHON_COMPILER) $< $(PROGRAM_ARGS)
+	
+
+# Not a target:
+max_trapped_water.py:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+int_as_list_add.py:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+gc 
+d.py:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+tree_inorder: tree_inorder.py
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 1698):
+	$(PYTHON_COMPILER) $< $(PROGRAM_ARGS)
+	
+
+# Not a target:
+max_square_submatrix.py:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has  
+not been updated.
+
+# Not a target:
+interval_add.py:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+is_circuit_wirable.py:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+int_as_array_multiply.py:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+absent_value_array.py:
+#  Implici 
+t rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+sorted_arrays_merge.py:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+prime_sieve.py:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+look_and_say.py:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+permutations: permutations.py
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 1122):
+	$(PYTHON_COMPILER) $< $(PROGRAM_ARGS)
+	
+
+# Not a target:
+huffman_coding.py:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+max_water_trappable: max_water_trappable.py
+#  Phony target (prerequisite of .PH 
+ONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 970):
+	$(PYTHON_COMPILER) $< $(PROGRAM_ARGS)
+	
+
+# Not a target:
+.SUFFIXES:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+is_tree_a_bst: is_tree_a_bst.py
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  comm 
+ands to execute (from `makefile', line 626):
+	$(PYTHON_COMPILER) $< $(PROGRAM_ARGS)
+	
+
+k_largest_in_heap: k_largest_in_heap.py
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 674):
+	$(PYTHON_COMPILER) $< $(PROGRAM_ARGS)
+	
+
+# Not a target:
+n_queens.py:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+lowest_common 
+_ancestor_close_ancestor: lowest_common_ancestor_close_ancestor.py
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 834):
+	$(PYTHON_COMPILER) $< $(PROGRAM_ARGS)
+	
+
+# Not a target:
+smallest_subarray_covering_all_values.py:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+tree_with_parent_inorder.py: 
+
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+intersect_sorted_arrays.py:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+sorted_list_to_bst: sorted_list_to_bst.py
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 1538):
+	$(PYTHON_COM 
+PILER) $< $(PROGRAM_ARGS)
+	
+
+three_sum: three_sum.py
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 1658):
+	$(PYTHON_COMPILER) $< $(PROGRAM_ARGS)
+	
+
+is_array_dominated: is_array_dominated.py
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `makefile', lin 
+e 546):
+	$(PYTHON_COMPILER) $< $(PROGRAM_ARGS)
+	
+
+# Not a target:
+tree_inorder.py:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+arbitrage: arbitrage.py
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 82):
+	$(PYTHON_COMPILER) $< $(PROGRAM_ARGS)
+	
+
+sunset_view: sunset_view.py
+#  Phony target (prerequisite of .P 
+HONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 1634):
+	$(PYTHON_COMPILER) $< $(PROGRAM_ARGS)
+	
+
+# Not a target:
+bst_from_preorder.py:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+search_frequent_items.py:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+queue_with_ma 
+x: queue_with_max.py
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 1210):
+	$(PYTHON_COMPILER) $< $(PROGRAM_ARGS)
+	
+
+# Not a target:
+k_largest_in_heap.py:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+tree_right_sibling.py:
+#  Implicit rule search has not been done.
+#  Modification time never  
+checked.
+#  File has not been updated.
+
+rook_attack: rook_attack.py
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 1346):
+	$(PYTHON_COMPILER) $< $(PROGRAM_ARGS)
+	
+
+# Not a target:
+lowest_common_ancestor_close_ancestor.py:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+int_square_root: int_square_root.py
+#  Pho 
+ny target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 506):
+	$(PYTHON_COMPILER) $< $(PROGRAM_ARGS)
+	
+
+# Not a target:
+is_list_cyclic.py:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+is_string_in_matrix: is_string_in_matrix.py
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File doe 
+s not exist.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 594):
+	$(PYTHON_COMPILER) $< $(PROGRAM_ARGS)
+	
+
+# Not a target:
+sorted_list_to_bst.py:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+max_of_sliding_window: max_of_sliding_window.py
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `makefile' 
+, line 906):
+	$(PYTHON_COMPILER) $< $(PROGRAM_ARGS)
+	
+
+advance_by_offsets: advance_by_offsets.py
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 50):
+	$(PYTHON_COMPILER) $< $(PROGRAM_ARGS)
+	
+
+# Not a target:
+bonus.py:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+three_sum.py:
+#  Implicit rule  
+search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+lowest_common_ancestor_in_bst: lowest_common_ancestor_in_bst.py
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 842):
+	$(PYTHON_COMPILER) $< $(PROGRAM_ARGS)
+	
+
+delete_node_from_list: delete_node_from_list.py
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not  
+been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 266):
+	$(PYTHON_COMPILER) $< $(PROGRAM_ARGS)
+	
+
+search_frequent_items: search_frequent_items.py
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 1410):
+	$(PYTHON_COMPILER) $< $(PROGRAM_ARGS)
+	
+
+# Not a target:
+sunset_view.py:
+#  Implicit rule search has not been do 
+ne.
+#  Modification time never checked.
+#  File has not been updated.
+
+next_permutation: next_permutation.py
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 1034):
+	$(PYTHON_COMPILER) $< $(PROGRAM_ARGS)
+	
+
+# Not a target:
+buy_and_sell_stock_twice.py:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+int_as_list_ad 
+d: int_as_list_add.py
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 498):
+	$(PYTHON_COMPILER) $< $(PROGRAM_ARGS)
+	
+
+# Not a target:
+queue_with_max.py:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+max_teams_in_photograph: max_teams_in_photograph.py
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule s 
+earch has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 954):
+	$(PYTHON_COMPILER) $< $(PROGRAM_ARGS)
+	
+
+real_square_root: real_square_root.py
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 1242):
+	$(PYTHON_COMPILER) $< $(PROGRAM_ARGS)
+	
+
+# Not a target:
+arbitrage.py:
+#  Implicit rule search has not been  
+done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+combinations.py:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+tree_from_preorder_inorder.py:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+int_square_root.py:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been upd 
+ated.
+
+# Not a target:
+is_string_in_matrix.py:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+max_trapped_water: max_trapped_water.py
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 962):
+	$(PYTHON_COMPILER) $< $(PROGRAM_ARGS)
+	
+
+# Not a target:
+rook_attack.py:
+#  Implicit rule search has not been done.
+#  Modi 
+fication time never checked.
+#  File has not been updated.
+
+# Not a target:
+max_of_sliding_window.py:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+string_integer_interconversion: string_integer_interconversion.py
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 1586):
+	$(PYTHON_COMPILER) $< $(PROGRAM_ARGS)
+	
+
+ 
+kth_largest_in_array: kth_largest_in_array.py
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 714):
+	$(PYTHON_COMPILER) $< $(PROGRAM_ARGS)
+	
+
+is_list_cyclic: is_list_cyclic.py
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 562):
+	$(PYTHO 
+N_COMPILER) $< $(PROGRAM_ARGS)
+	
+
+# Not a target:
+advance_by_offsets.py:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+search_shifted_sorted_array: search_shifted_sorted_array.py
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 1450):
+	$(PYTHON_COMPILER) $< $(PROGRAM_ARGS)
+	
+
+offline_sampling: offline_sampling. 
+py
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 1074):
+	$(PYTHON_COMPILER) $< $(PROGRAM_ARGS)
+	
+
+# Not a target:
+lowest_common_ancestor_in_bst.py:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+delete_node_from_list.py:
+#  Implicit rule search has not been done.
+#  Modification time never che 
+cked.
+#  File has not been updated.
+
+clean:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 1783):
+	rm -r $(BUILD_DIR)
+	
+
+tree_from_preorder_inorder: tree_from_preorder_inorder.py
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 1682):
+	$( 
+PYTHON_COMPILER) $< $(PROGRAM_ARGS)
+	
+
+# Not a target:
+regular_expression.py:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+pretty_printing.py:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+next_permutation.py:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+bst_to_sorted_l 
+ist.py:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+real_square_root.py:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+longest_subarray_with_sum_constraint.py:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+search_for_min_max_in_array.py:
+#  Implicit rule search has not  
+been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+buy_and_sell_stock_twice: buy_and_sell_stock_twice.py
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 154):
+	$(PYTHON_COMPILER) $< $(PROGRAM_ARGS)
+	
+
+int_as_array_multiply: int_as_array_multiply.py
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does n 
+ot exist.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 490):
+	$(PYTHON_COMPILER) $< $(PROGRAM_ARGS)
+	
+
+longest_subarray_with_distinct_values: longest_subarray_with_distinct_values.py
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 794):
+	$(PYTHON_COMPILER) $< $(PROGRAM_ARGS)
+	
+
+h_index: h_index.py
+#  Phony target (prerequisite of .PHONY).
+#   
+Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 442):
+	$(PYTHON_COMPILER) $< $(PROGRAM_ARGS)
+	
+
+# Not a target:
+kth_largest_in_array.py:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+tree_postorder.py:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+longest_increasing_subarray: 
+ longest_increasing_subarray.py
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 778):
+	$(PYTHON_COMPILER) $< $(PROGRAM_ARGS)
+	
+
+# Not a target:
+string_integer_interconversion.py:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+two_sorted_arrays_merge.py:
+#  Implicit rule search has not been done. 
+
+#  Modification time never checked.
+#  File has not been updated.
+
+number_of_traversals_staircase: number_of_traversals_staircase.py
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 1066):
+	$(PYTHON_COMPILER) $< $(PROGRAM_ARGS)
+	
+
+swap_bits: swap_bits.py
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has 
+ not been updated.
+#  commands to execute (from `makefile', line 1642):
+	$(PYTHON_COMPILER) $< $(PROGRAM_ARGS)
+	
+
+online_median: online_median.py
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 1082):
+	$(PYTHON_COMPILER) $< $(PROGRAM_ARGS)
+	
+
+# Not a target:
+offline_sampling.py:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not  
+been updated.
+
+primitive_divide: primitive_divide.py
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 1186):
+	$(PYTHON_COMPILER) $< $(PROGRAM_ARGS)
+	
+
+uniform_random_number: uniform_random_number.py
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 1762):
+	$(PYTHON_COMPILER) $< $(PROGRAM_ARGS)
+	
+
+convert_base: convert_base.py
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 202):
+	$(PYTHON_COMPILER) $< $(PROGRAM_ARGS)
+	
+
+spreadsheet_encoding: spreadsheet_encoding.py
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  comm 
+ands to execute (from `makefile', line 1562):
+	$(PYTHON_COMPILER) $< $(PROGRAM_ARGS)
+	
+
+adding_credits: adding_credits.py
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 42):
+	$(PYTHON_COMPILER) $< $(PROGRAM_ARGS)
+	
+
+fibonacci: fibonacci.py
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been upda 
+ted.
+#  commands to execute (from `makefile', line 386):
+	$(PYTHON_COMPILER) $< $(PROGRAM_ARGS)
+	
+
+# Not a target:
+longest_subarray_with_distinct_values.py:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+longest_increasing_subarray.py:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+longest_contained_interval.py:
+#  Implicit rule search has not been don 
+e.
+#  Modification time never checked.
+#  File has not been updated.
+
+number_of_score_combinations: number_of_score_combinations.py
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 1050):
+	$(PYTHON_COMPILER) $< $(PROGRAM_ARGS)
+	
+
+drawing_skyline: drawing_skyline.py
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+# 
+  File has not been updated.
+#  commands to execute (from `makefile', line 306):
+	$(PYTHON_COMPILER) $< $(PROGRAM_ARGS)
+	
+
+element_appearing_once: element_appearing_once.py
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 322):
+	$(PYTHON_COMPILER) $< $(PROGRAM_ARGS)
+	
+
+circular_queue: circular_queue.py
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 170):
+	$(PYTHON_COMPILER) $< $(PROGRAM_ARGS)
+	
+
+delete_from_list: delete_from_list.py
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 250):
+	$(PYTHON_COMPILER) $< $(PROGRAM_ARGS)
+	
+
+copy_posting_list: copy_posting_list.py
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 210):
+	$(PYTHON_COMPILER) $< $(PROGRAM_ARGS)
+	
+
+# Not a target:
+kth_largest_element_in_long_array.py:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+tree_postorder: tree_postorder.py
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has  
+not been updated.
+#  commands to execute (from `makefile', line 1714):
+	$(PYTHON_COMPILER) $< $(PROGRAM_ARGS)
+	
+
+lru_cache: lru_cache.py
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 858):
+	$(PYTHON_COMPILER) $< $(PROGRAM_ARGS)
+	
+
+# Not a target:
+group_equal_entries.py:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+is_string_palindromic_punctuation: is_string_palindromic_punctuation.py
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 610):
+	$(PYTHON_COMPILER) $< $(PROGRAM_ARGS)
+	
+
+# Not a target:
+search_entry_equal_to_index.py:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+swap_bits.py:
+#  Implicit 
+ rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+random_subset: random_subset.py
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 1226):
+	$(PYTHON_COMPILER) $< $(PROGRAM_ARGS)
+	
+
+kth_node_in_tree: kth_node_in_tree.py
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 722):
+	$(PYTHON_COMPILER) $< $(PROGRAM_ARGS)
+	
+
+# Not a target:
+pivot_list.py:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+online_median.py:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+uniform_random_number.py:
+#  Implicit rule search has not been done.
+#  Modification ti 
+me never checked.
+#  File has not been updated.
+
+max_safe_height: max_safe_height.py
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 922):
+	$(PYTHON_COMPILER) $< $(PROGRAM_ARGS)
+	
+
+# Not a target:
+random_subset.py:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+number_of_traversals_staircase.py: 
+
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+two_sorted_arrays_merge: two_sorted_arrays_merge.py
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 1746):
+	$(PYTHON_COMPILER) $< $(PROGRAM_ARGS)
+	
+
+# Not a target:
+primitive_divide.py:
+#  Implicit rule search has not been done.
+#  Modification time never checked. 
+
+#  File has not been updated.
+
+max_submatrix: max_submatrix.py
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 938):
+	$(PYTHON_COMPILER) $< $(PROGRAM_ARGS)
+	
+
+hanoi: hanoi.py
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 450):
+	$(PYTHON_COMPILER) $< $(PROGRAM_ARGS)
+	
+
+queue_from_stacks: queue_from_stacks.py
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 1202):
+	$(PYTHON_COMPILER) $< $(PROGRAM_ARGS)
+	
+
+# Not a target:
+successor_in_tree.py:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+spreadsheet_encoding.py:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+fibonacci.py:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+tree_right_sibling: tree_right_sibling.py
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 1730):
+	$(PYTHON_COMPILER) $< $(PROGRAM_ARGS)
+	
+
+# Not a target:
+dutch_national_flag.py:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+gray_code: gray_code.py
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 426):
+	$(PYTHON_COMPILER) $< $(PROGRAM_ARGS)
+	
+
+# Not a target:
+search_row_col_sorted_matrix.py:
+#  Implicit rule search has not been done.
+#  Modificatio 
+n time never checked.
+#  File has not been updated.
+
+enumerate_palindromic_decompositions: enumerate_palindromic_decompositions.py
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 338):
+	$(PYTHON_COMPILER) $< $(PROGRAM_ARGS)
+	
+
+tree_exterior: tree_exterior.py
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 1674):
+	$(PYTHON_COMPILER) $< $(PROGRAM_ARGS)
+	
+
+# Not a target:
+drawing_skyline.py:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+levenshtein_distance.py:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+zip_list: zip_list.py
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not b 
+een done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 1778):
+	$(PYTHON_COMPILER) $< $(PROGRAM_ARGS)
+	
+
+# Not a target:
+is_string_palindromic_punctuation.py:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+sorted_arrays_merge: sorted_arrays_merge.py
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  com 
+mands to execute (from `makefile', line 1530):
+	$(PYTHON_COMPILER) $< $(PROGRAM_ARGS)
+	
+
+bst_from_preorder: bst_from_preorder.py
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 106):
+	$(PYTHON_COMPILER) $< $(PROGRAM_ARGS)
+	
+
+# Not a target:
+enumerate_trees.py:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# No 
+t a target:
+lru_cache.py:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+is_list_palindromic: is_list_palindromic.py
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 570):
+	$(PYTHON_COMPILER) $< $(PROGRAM_ARGS)
+	
+
+longest_subarray_with_sum_constraint: longest_subarray_with_sum_constraint.py
+#  Phony target (prer 
+equisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 802):
+	$(PYTHON_COMPILER) $< $(PROGRAM_ARGS)
+	
+
+# Not a target:
+road_network.py:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+int_as_array_increment.py:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# No 
+t a target:
+power_set.py:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+kth_node_in_tree.py:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+search_first_key.py:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+queue_from_stacks.py:
+#  Implicit rule search has not been done.
+# 
+  Modification time never checked.
+#  File has not been updated.
+
+insert_in_list: insert_in_list.py
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 466):
+	$(PYTHON_COMPILER) $< $(PROGRAM_ARGS)
+	
+
+# Not a target:
+a_b_sqrt2.py:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+max_product_all_but_one 
+.py:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+reverse_sublist.py:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+hanoi.py:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+majority_element: majority_element.py
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not bee 
+n done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 866):
+	$(PYTHON_COMPILER) $< $(PROGRAM_ARGS)
+	
+
+# Not a target:
+rectangle_intersection.py:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+longest_substring_with_matching_parentheses.py:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+valid_ip_addresses: valid_ip_ 
+addresses.py
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 1770):
+	$(PYTHON_COMPILER) $< $(PROGRAM_ARGS)
+	
+
+# Not a target:
+online_sampling.py:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+evaluate_rpn: evaluate_rpn.py
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  F 
+ile does not exist.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 362):
+	$(PYTHON_COMPILER) $< $(PROGRAM_ARGS)
+	
+
+# Not a target:
+enumerate_palindromic_decompositions.py:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+last:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+minimum_distance_3_sorted_arrays: minimum_distance_3_so 
+rted_arrays.py
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 986):
+	$(PYTHON_COMPILER) $< $(PROGRAM_ARGS)
+	
+
+# Not a target:
+tree_exterior.py:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+zip_list.py:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has  
+not been updated.
+
+calendar_rendering: calendar_rendering.py
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 162):
+	$(PYTHON_COMPILER) $< $(PROGRAM_ARGS)
+	
+
+kth_largest_element_in_long_array: kth_largest_element_in_long_array.py
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  comm 
+ands to execute (from `makefile', line 698):
+	$(PYTHON_COMPILER) $< $(PROGRAM_ARGS)
+	
+
+# Not a target:
+max_teams_in_photograph.py:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+matrix_connected_regions: matrix_connected_regions.py
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 882):
+	$(PYTHON_COMPILER) $< $(P 
+ROGRAM_ARGS)
+	
+
+# Not a target:
+gray_code.py:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+roman_to_integer: roman_to_integer.py
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 1338):
+	$(PYTHON_COMPILER) $< $(PROGRAM_ARGS)
+	
+
+# Not a target:
+adding_credits.py:
+#  Implicit rule search has not been done.
+#  Mod 
+ification time never checked.
+#  File has not been updated.
+
+minimum_waiting_time: minimum_waiting_time.py
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 1002):
+	$(PYTHON_COMPILER) $< $(PROGRAM_ARGS)
+	
+
+do_terminated_lists_overlap: do_terminated_lists_overlap.py
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  
+ File has not been updated.
+#  commands to execute (from `makefile', line 298):
+	$(PYTHON_COMPILER) $< $(PROGRAM_ARGS)
+	
+
+longest_nondecreasing_subsequence: longest_nondecreasing_subsequence.py
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 786):
+	$(PYTHON_COMPILER) $< $(PROGRAM_ARGS)
+	
+
+# Not a target:
+h_index.py:
+#  Implicit rule search has not been done.
+#  Modificatio 
+n time never checked.
+#  File has not been updated.
+
+bst_from_sorted_array: bst_from_sorted_array.py
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 114):
+	$(PYTHON_COMPILER) $< $(PROGRAM_ARGS)
+	
+
+tree_connect_leaves: tree_connect_leaves.py
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been upda 
+ted.
+#  commands to execute (from `makefile', line 1666):
+	$(PYTHON_COMPILER) $< $(PROGRAM_ARGS)
+	
+
+sum_root_to_leaf: sum_root_to_leaf.py
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 1626):
+	$(PYTHON_COMPILER) $< $(PROGRAM_ARGS)
+	
+
+# Not a target:
+majority_element.py:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+valid_ip_addresses.py:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+anagrams: anagrams.py
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 66):
+	$(PYTHON_COMPILER) $< $(PROGRAM_ARGS)
+	
+
+tree_from_preorder_with_null: tree_from_preorder_with_null.py
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 1690):
+	$(PYTHON_COMPILER) $< $(PROGRAM_ARGS)
+	
+
+bst_merge: bst_merge.py
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 122):
+	$(PYTHON_COMPILER) $< $(PROGRAM_ARGS)
+	
+
+is_anonymous_letter_constructible: is_anonymous_letter_constructible.py
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 538):
+	$(PYTHON_COMPILER) $< $(PROGRAM_ARGS)
+	
+
+nearest_repeated_entries: nearest_repeated_entries.py
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 1026):
+	$(PYTHON_COMPILER) $< $(PROGRAM_ARGS)
+	
+
+search_maze: search_maze.py
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 1434):
+	$(PYTHON_COMPILER) $< $(PROGRAM_ARGS)
+	
+
+k_closest_stars: k_closest_stars.py
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 666):
+	$(PYTHON_COMPILER) $< $(PROGRAM_ARGS)
+	
+
+bst_to_sorted_list: bst_to_sorted_list.py
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 130):
+	$(PYTHON_COMPILER) $< $(PROGRAM_ARGS)
+	
+
+# Not a target:
+snake_string.py:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+int_as_array_increment: int_as_array_increment.py
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 482):
+	$(PYTHON_COMPILER) $< $(PROGRAM_ARGS)
+	
+
+binomial_coefficients: binomial_coefficients.py
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 90):
+	$(PYTHON_COMPILER) $< $(PROGRAM_ARGS)
+	
+
+# Not a target:
+is_tree_balanced.py:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+sort_list: sort_list.py
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 1514):
+	$(PYTHON_COMPILER) $< $(PROGRAM_ARGS)
+	
+
+# Not a target:
+calendar_rendering.py:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+do_terminated_lists_overlap.py:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+tree_from_preorder_with_null.py:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+rotate_array: rotate_array.py
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 1354):
+	$(PYTHON_COMPILER) $< $(PROGRAM_ARGS)
+	
+
+# Not a target:
+bst_from_sorted_array.py:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+do_lists_overlap: do_lists_overlap.py
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 290):
+	$(PYTHON_COMPILER) $< $ 
+(PROGRAM_ARGS)
+	
+
+deadlock_detection: deadlock_detection.py
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 234):
+	$(PYTHON_COMPILER) $< $(PROGRAM_ARGS)
+	
+
+# Not a target:
+tree_connect_leaves.py:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+reverse_sublist: reverse_sublist.py
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 1314):
+	$(PYTHON_COMPILER) $< $(PROGRAM_ARGS)
+	
+
+remove_duplicates: remove_duplicates.py
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 1274):
+	$(PYTHON_COMPILER) $< $(PROGRAM_ARGS)
+	
+
+regular_expression: regular_expressio 
+n.py
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 1266):
+	$(PYTHON_COMPILER) $< $(PROGRAM_ARGS)
+	
+
+# Not a target:
+circular_queue.py:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+convert_base.py:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not  
+been updated.
+
+maximum_subarray_in_circular_array: maximum_subarray_in_circular_array.py
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 978):
+	$(PYTHON_COMPILER) $< $(PROGRAM_ARGS)
+	
+
+is_number_palindromic: is_number_palindromic.py
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#   
+commands to execute (from `makefile', line 578):
+	$(PYTHON_COMPILER) $< $(PROGRAM_ARGS)
+	
+
+# Not a target:
+anagrams.py:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+sum_root_to_leaf.py:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+nearest_repeated_entries.py:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has 
+ not been updated.
+
+# Not a target:
+k_closest_stars.py:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+bst_merge.py:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+string_transformability: string_transformability.py
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to  
+execute (from `makefile', line 1594):
+	$(PYTHON_COMPILER) $< $(PROGRAM_ARGS)
+	
+
+power_x_y: power_x_y.py
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 1162):
+	$(PYTHON_COMPILER) $< $(PROGRAM_ARGS)
+	
+
+# Not a target:
+binomial_coefficients.py:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+longes 
+t_nondecreasing_subsequence.py:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+is_anonymous_letter_constructible.py:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+graph_clone: graph_clone.py
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `makefile' 
+, line 418):
+	$(PYTHON_COMPILER) $< $(PROGRAM_ARGS)
+	
+
+# Not a target:
+two_sum.py:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# files hash-table stats:
+# Load=447/1024=44%, Rehash=0, Collisions=322/1122=29%
+# VPATH Search Paths
+
+# No `vpath' search paths.
+
+# No general (`VPATH' variable) search path.
+
+# # of strings in strcache: 1
+# # of strcache buffers: 1
+# strcache size: total = 4096 / max = 4096 / min = 4096 / avg = 4096
+# strcache free: 
+ total = 4087 / max = 4087 / min = 4087 / avg = 4087
+
+# Finished Make data base on Mon Jan 10 19:26:03 2022
+
+ 

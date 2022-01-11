@@ -1,0 +1,6 @@
+make.exe: Entering directory `c:/Bao/interview stuff/EPIJudge/epi_judge_python'
+make.exe: Nothing to be done for `last'.
+make.exe: Leaving directory `c:/Bao/interview stuff/EPIJudge/epi_judge_python'
+ 
+process_begin: CreateProcess(NULL, "", ...) failed.
+ 
