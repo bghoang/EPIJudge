@@ -16,7 +16,6 @@ def search_maze(maze: List[List[int]], s: Coordinate,
                 e: Coordinate) -> List[Coordinate]:
     # TODO - you fill in here.
     '''
-    Note: Recursive dfs don't need a stack 
     Create a visited array
     Create a stack
     Call recursive DFS(maze, s, e, visited, stack)
