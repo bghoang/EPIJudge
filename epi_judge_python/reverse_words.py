@@ -8,6 +8,7 @@ from test_framework.test_utils import enable_executor_hook
 # ['r', 'a', 'm', ' ', 'i', 's', ' ', 'c', 'o', 's', 't', 'l', 'y'].
 def reverse_words(s):
     # TODO - you fill in here.
+    print(s)
     return
 
 
