@@ -8,7 +8,21 @@ from test_framework.test_utils import enable_executor_hook
 # ['r', 'a', 'm', ' ', 'i', 's', ' ', 'c', 'o', 's', 't', 'l', 'y'].
 def reverse_words(s):
     # TODO - you fill in here.
-    print(s)
+    # print(s)
+    newS = "".join(s)
+    newS = newS.split(" ")
+
+    l = 0
+    r = len(newS) - 1
+    while l < r:
+        newS[l], newS[r] = newS[r], newS[l]
+        l += 1
+        r -= 1
+    newS = " ".join(newS)
+    newS = list(newS)
+
+    for i in range(len(s)):
+        s[i] = newS[i]
     return
 
 
