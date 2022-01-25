@@ -4,7 +4,21 @@ from test_framework import generic_test
 
 def is_balanced_binary_tree(tree: BinaryTreeNode) -> bool:
     # TODO - you fill in here.
-    return True
+    check = [True]
+    height(tree, check)
+    return check[0]
+
+
+def height(node, check):
+    if node == None or check[0] == False:
+        return 0
+
+    heightL = height(node.left, check)
+    heightR = height(node.right, check)
+
+    if abs(heightR-heightL) > 1:
+        check[0] = False
+    return max(heightL, heightR) + 1
 
 
 if __name__ == '__main__':
