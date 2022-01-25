@@ -5,6 +5,19 @@ from test_framework import generic_test
 
 def apply_permutation(perm: List[int], A: List[int]) -> None:
     # TODO - you fill in here.
+    d = {}
+    for i in range(len(A)):
+        d[A[i]] = perm[i]
+
+    for k, v in d.items():
+        A[v] = k
+    '''
+    for i in range(len(A)):
+        newInd = perm[i]
+        if newInd != -1:
+            A[i], A[newInd] = A[newInd], A[i]
+            perm[i] = -1
+            perm[newInd] = -1'''
     return
 
 
