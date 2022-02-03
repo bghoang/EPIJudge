@@ -7,7 +7,21 @@ from test_framework import generic_test
 def rebuild_bst_from_preorder(preorder_sequence: List[int]
                               ) -> Optional[BstNode]:
     # TODO - you fill in here.
-    return None
+    if len(preorder_sequence) == 0:
+        return
+
+    root = BstNode(preorder_sequence[0])
+
+    # startInd of the right sub tree
+    rightInd = len(preorder_sequence)
+    for i in range(len(preorder_sequence)):
+        if preorder_sequence[i] > root.data:
+            rightInd = i
+            break
+
+    root.left = rebuild_bst_from_preorder(preorder_sequence[1:rightInd])
+    root.right = rebuild_bst_from_preorder(preorder_sequence[rightInd::])
+    return root
 
 
 if __name__ == '__main__':

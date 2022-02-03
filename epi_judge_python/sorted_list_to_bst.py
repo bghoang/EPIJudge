@@ -13,6 +13,7 @@ from test_framework.test_utils import enable_executor_hook
 def build_bst_from_sorted_doubly_list(l: DoublyListNode,
                                       n: int) -> Optional[DoublyListNode]:
     # TODO - you fill in here.
+    print(l[0].data)
     return None
 
 
