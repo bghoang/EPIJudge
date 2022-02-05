@@ -10,7 +10,40 @@ def pair_includes_ancestor_and_descendant_of_m(possible_anc_or_desc_0: BstNode,
                                                possible_anc_or_desc_1: BstNode,
                                                middle: BstNode) -> bool:
     # TODO - you fill in here.
-    return True
+    check1 = [False, False]
+    check2 = [False, False]
+
+    res1 = helper(possible_anc_or_desc_0, middle,
+                  possible_anc_or_desc_1, check1)
+    res2 = helper(possible_anc_or_desc_1, middle,
+                  possible_anc_or_desc_0, check2)
+    return res1 or res2
+
+
+def helper(node, node1, node2, check):
+    if node == None:
+        return False
+
+    # If we encouter
+    if node.data == node2.data:
+        check[1] = True
+    elif node.data == node1.data:
+        check[0] = True
+
+    # If we encouter the middle node before the other other descendant node, then return false
+    if check[1] and check[0] == False:
+        return False
+    if check[0] and check[1]:
+        return True
+
+    if check[0] == False and node.data > node1.data:
+        return helper(node.left, node1, node2, check)
+    elif check[0] == False and node.data < node1.data:
+        return helper(node.right, node1, node2, check)
+    else:
+        checkLeft = helper(node.left, node1, node2, check)
+        checkRight = helper(node.right, node1, node2, check)
+        return checkLeft or checkRight
 
 
 @enable_executor_hook
