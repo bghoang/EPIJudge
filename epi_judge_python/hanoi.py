@@ -10,7 +10,35 @@ NUM_PEGS = 3
 
 def compute_tower_hanoi(num_rings: int) -> List[List[int]]:
     # TODO - you fill in here.
-    return []
+    '''
+    Move top n-1 disk to buffered tower
+    Then move the nth disk to the destination tower
+    Then move the n-1 disks from buffered tower to the destination tower 
+
+    Note: Weird
+    '''
+    res = []
+    # Create pegs lists
+    #pegs = [[] for _ in range(NUM_PEGS)]
+    #pegs[0] = [x for x in reversed(range(1, num_rings+1))]
+
+    compute(num_rings, 0, 1, 2, res)
+    return res
+
+
+def compute(num_rings, from_peg, to_peg, used_peg, res):
+    if num_rings > 0:
+
+        # Move top n-1 disks from original peg to buffered pegs
+        compute(num_rings-1, from_peg, used_peg, to_peg, res)
+
+        # After moving n-1 disks, now we can move top disk of original peg to destination peg
+        #topDisk = pegs[from_peg].pop()
+        # pegs[to_peg].append(topDisk)
+        res.append([from_peg, to_peg])
+
+        # Move top n-1 from buffered pegs to the desination peg
+        compute(num_rings-1, used_peg, to_peg, from_peg, res)
 
 
 @enable_executor_hook
