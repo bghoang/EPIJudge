@@ -1,5 +1,6 @@
 import functools
 from typing import List
+#from epi_judge_python_solutions.gray_code import differ_by_1_bit
 
 from test_framework import generic_test
 from test_framework.test_failure import TestFailure
@@ -8,7 +9,18 @@ from test_framework.test_utils import enable_executor_hook
 
 def gray_code(num_bits: int) -> List[int]:
     # TODO - you fill in here.
-    return []
+    if num_bits == 0:
+        return [0]
+
+    def dfs(path):
+        if len(path) == num_bits:
+            return [path]
+        a = dfs(path+'0')
+        b = dfs(path+'1')
+        b.reverse()
+        return a+b
+    res = list(map(lambda x: int(x, 2), dfs('')))
+    return res
 
 
 @enable_executor_hook
