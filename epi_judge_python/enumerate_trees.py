@@ -9,7 +9,27 @@ from test_framework.test_utils import enable_executor_hook
 def generate_all_binary_trees(num_nodes: int
                               ) -> List[Optional[BinaryTreeNode]]:
     # TODO - you fill in here.
-    return []
+    '''
+    For each recursion, build left subtree with k nodes, then right subtree with n-k-1 node
+    '''
+    res = buildTree(num_nodes)
+    return res
+
+
+def buildTree(num_nodes):
+    if (num_nodes == 0):
+        return [None]
+
+    res = []
+    for num_left in range(num_nodes):
+        num_right = num_nodes - 1 - num_left
+
+        leftTree = buildTree(num_left)
+        rightTree = buildTree(num_right)
+
+        res += [BinaryTreeNode(0, left, right)
+                for left in leftTree for right in rightTree]
+    return res
 
 
 def serialize_structure(tree):

@@ -3,6 +3,8 @@ import functools
 import math
 from typing import List
 
+from matplotlib import gridspec
+
 from test_framework import generic_test
 from test_framework.test_failure import TestFailure
 from test_framework.test_utils import enable_executor_hook
@@ -10,6 +12,45 @@ from test_framework.test_utils import enable_executor_hook
 
 def solve_sudoku(partial_assignment: List[List[int]]) -> bool:
     # TODO - you fill in here.
+    slots = []
+    for i in range(9):
+        for j in range(9):
+            if partial_assignment[i][j] == 0:
+                slots.append([i, j])
+    # print(slots)
+    res = backtrack(0, slots, partial_assignment)
+    # print(partial_assignment)
+    return res
+
+
+def backtrack(currInd, slots, partial_assignment):
+    if currInd == len(slots):
+        return True
+    # print(partial_assignment)
+    for i in range(9):
+        currI, currJ = slots[currInd][0], slots[currInd][1]
+
+        if isValid(currI, currJ, partial_assignment, i+1):
+            partial_assignment[currI][currJ] = i+1
+            if backtrack(currInd + 1, slots, partial_assignment):
+                return True
+            else:
+                partial_assignment[currI][currJ] = 0
+    return False
+
+
+def isValid(currI, currJ, partial_assignment, c):
+    for n in range(len(partial_assignment)):
+        if partial_assignment[currI][n] == c:
+            return False
+        if partial_assignment[n][currJ] == c:
+            return False
+
+    gridX, gridY = 3*(currI//3), 3*(currJ//3)
+    for x in range(gridX, gridX+3):
+        for y in range(gridY, gridY+3):
+            if partial_assignment[x][y] == c:
+                return False
     return True
 
 
