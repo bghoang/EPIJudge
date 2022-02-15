@@ -5,7 +5,14 @@ from test_framework import generic_test
 
 def h_index(citations: List[int]) -> int:
     # TODO - you fill in here.
-    return 0
+    citations.sort()
+    res = len(citations)
+    for e in citations:
+        if e >= res:
+            break
+        res -= 1
+
+    return res
 
 
 if __name__ == '__main__':

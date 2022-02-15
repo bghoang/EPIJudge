@@ -12,7 +12,67 @@ Interval = collections.namedtuple('Interval', ('left', 'right'))
 def add_interval(disjoint_intervals: List[Interval],
                  new_interval: Interval) -> List[Interval]:
     # TODO - you fill in here.
-    return []
+    '''
+    Only merge when a[right] > b[left]
+    If a[right] > b[left] and a[right] <= b[right], then use b[right]
+    If a[right > b[left] and a[right] > b[right], then use a[right]
+    '''
+    '''disjoint_intervals.append(new_interval)
+    disjoint_intervals.sort(key=lambda e: e.left)
+    res = []
+    if len(disjoint_intervals) == 0:
+        return []
+
+    res.append(disjoint_intervals[0])
+    # print(disjoint_intervals)
+    i, j = 1, 0
+
+    while i < len(disjoint_intervals):
+        b = disjoint_intervals[i]
+        a = res[j]
+        if a[1] >= b[0] and a[1] <= b[1]:
+            temp = res[j]
+            res[j] = Interval(temp[0], b[1])
+        elif a[1] >= b[0] and a[1] > b[1]:
+            i += 1
+            continue
+        else:
+            res.append(b)
+            j += 1
+        i += 1
+    return res'''
+
+    res = []
+    if len(disjoint_intervals) == 0:
+        return res
+    i = 0
+
+    while i < len(disjoint_intervals):
+        a = new_interval
+        b = disjoint_intervals[i]
+
+        # for the case where new_inverval[0] is less than all the left valud of the disjoint_intervals
+        if a[0] <= b[0]:
+            break
+        # For other case
+        elif b[1] >= a[0]:
+            # res.append(a)
+            break
+        res.append(b)
+        i += 1
+
+    while i < len(disjoint_intervals):
+        a = new_interval
+        b = disjoint_intervals[i]
+        if a[1] >= b[0]:
+            left = min(a[0], b[0])
+            right = max(a[1], b[1])
+            new_interval = Interval(left, right)
+        else:
+            break
+        i += 1
+
+    return res + [new_interval] + disjoint_intervals[i::]
 
 
 @enable_executor_hook
