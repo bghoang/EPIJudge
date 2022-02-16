@@ -11,6 +11,7 @@ Person = collections.namedtuple('Person', ('age', 'name'))
 
 def group_by_age(people: List[Person]) -> None:
     # TODO - you fill in here.
+    people.sort(key=lambda e: e.age)
     return
 
 
